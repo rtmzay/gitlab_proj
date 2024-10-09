@@ -14,4 +14,25 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LOS_test\LOS_test\di" />
+    <None Include="..\..\LOS_test\LOS_test\gg" />
+    <None Include="..\..\LOS_test\LOS_test\ig" />
+    <None Include="..\..\LOS_test\LOS_test\jg" />
+    <None Include="..\..\LOS_test\LOS_test\pr" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\LOS_test\LOS_test\kuslau.txt" />
+    <Text Include="..\..\LOS_test\LOS_test\out.txt" />
+  </ItemGroup>
 </Project>
